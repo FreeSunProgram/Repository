@@ -1,0 +1,12 @@
+TEMPLATE = app
+CONFIG += console c++11
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += main.cpp
+
+HEADERS += \
+    smart_ptr.h \
+    pointcontainer.h
+
+DEFINES += PTR_DEBUG
